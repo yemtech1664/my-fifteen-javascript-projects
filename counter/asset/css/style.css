@@ -1,0 +1,13 @@
+*{margin: 0; padding: 0; font-family: sans-serif;}
+body{background: #f1f5f8;}
+.wrapper{width: 50%; height: 30vh; position: absolute; left: 50%; top: 50%; transform: translate(-50%, -50%);}
+.counter-box{width: 70%; height: 20vh; margin: auto;}
+.counter-box > p:nth-child(1){text-align: center; font-size: 30px; font-weight: 600;}
+.counter-box > p:nth-child(2){text-align: center; font-size: 150px; font-weight: 500; margin-top: 20px;}
+.botton-box{display: flex; justify-content: center; gap: 20px; margin-top: 20px;}
+.botton-box > button{background: transparent; border: 2px solid #000; outline: none; padding: 10px; font-weight: 500; 
+border-radius: 10px; cursor: pointer;}
+
+@media(max-width: 768px){
+	
+}
