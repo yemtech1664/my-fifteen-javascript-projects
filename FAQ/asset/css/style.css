@@ -1,0 +1,24 @@
+@font-face{
+	font-family: greatVibe;
+	src: url("../font/greatVibes.ttf");
+}
+
+*{margin: 0; padding: 0;}
+body{font-family: sans-serif; background: #e6f1ff;}
+.container{width: 50%; height: auto; padding: 10px 0; position: absolute; left: 50%; top: 50%; transform: translate(-50%, -50%);
+text-align: center;}
+.container > h3{color: #795548; margin-bottom: 50px; font-family: greatVibe; font-size: 30px;}
+.question-title{display: flex; justify-content: space-between; padding: 10px 0; background: #fff; border-radius: 10px;}
+.question-title > p{font-weight: 700; letter-spacing: 0.1em; text-align: left;}
+.minus{display: none;}
+article.question{background: #fff; padding: 15px; box-shadow: 3px 3px 3px grey; margin-bottom: 30px;}
+.question-text > p{font-size: 12px; padding-top: 20px; text-align: left; font-weight: 700; line-height: 1.5em;}
+.question-btn{border: none; outline: none; background: transparent;}
+.question-text{display: none;}
+.show-text .question-text{display: block;}
+.show-text .minus{display: block;}
+.show-text .plus{display: none;}
+
+@media(max-width: 769px){
+	.container{width: 85%;}
+}
