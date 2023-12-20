@@ -21,4 +21,5 @@ article.question{background: #fff; padding: 15px; box-shadow: 3px 3px 3px grey; 
 
 @media(max-width: 769px){
 	.container{width: 85%;}
+	.question-text > p{font-size: 15px;}
 }
