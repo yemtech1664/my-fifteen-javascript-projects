@@ -1,0 +1,14 @@
+*{margin: 0; padding: 0; }
+body{font-family: sans-serif;}
+header{width: 100%; height: 100vh; position: relative; display: grid; place-item: center; z-index: 1;}
+header::after{content: ""; position: absolute; width: 100%; height: 100%; background: #000; top: 0; opacity: 0.7; z-index: -1; }
+.video-container{position: absolute; width: 100%; height: 100%; top: 0; left: 0; object-fit: cover; z-index: -2;}
+h1{position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); color: #fff;}
+.switch-btn{position: absolute; bottom: 7%; left: 7%; width: 7rem; height: 2rem; display: flex; border-radius: 10px; align-items: center;
+justify-content: space-around; border: none;}
+.switch-btn span{display: inline-block; font-size: 0.85rem; cursor: pointer; text-transform: capitalize;}
+.switch{position: absolute; width: 50%; height: 100%; left: 0; top: 0; background: skyblue; border-radius: 10px; display: block; margin: 0;}
+.slide{left: 50%;}
+.preloader{position: fixed; top: 0; left: 0; visibility: visible; z-index: 999; width: 100%; height: 100vh; text-align: center;}
+.preloader img{width: 100%; height: 100%; object-fit: cover;}
+ .hide-preloader{visibility: hidden; z-index: -999;}
