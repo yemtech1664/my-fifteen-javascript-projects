@@ -1,0 +1,25 @@
+*{margin: 0; padding: 0; border: none; outline: none;}
+body{font-family: sans-serif; background: #ddebec;}
+.box-center{width: 50%; height: auto; background: #fff; border-radius: 10px; text-align: center; 
+padding: 30px 10px; margin:  120px auto 0 auto; box-shadow: 10px 10px 10px #ccc;}
+
+.alert{margin: 10px 0;}
+.input-box{width: 100%; margin: auto; display: flex; justify-content: center;}
+input[type="text"]{background: #ddebec; width: 58%; padding: 10px 8px;
+border-radius: 10px 0 0 10px; font-size: 20px;}
+.input-box > button{background: #56b2b9; padding: 6px 12px; font-size: 18px; font-weight: 800; cursor: pointer;
+border-radius: 0 10px 10px 0;}
+h4{font-size: 25px; font-weight: 700; letter-spacing: 0.2rem; padding-bottom: 20px;}
+.grocery-container{visibility: hidden;}
+.grocery-list{width: 75%; margin: 30px auto; display: flex; justify-content: space-between;}
+.grocery-list p{font-size: 20px;}
+.clear-item > button{color: #e60303; letter-spacing: 0.2rem; font-weight: 700; border: none; font-size: 20px;
+background: transparent; cursor: pointer;}
+.alert-danger{color: #7216c4; background: #f8d7da;}
+.alert-success{color: #155724; background: #d4edda;}
+.show-container{visibility: visible;}
+
+/*media query*/
+@media(max-width: 769px){
+	.box-center{width: 80%;}
+}

@@ -1,0 +1,15 @@
+*{margin: 0; padding: 0; border: none; outline: none;}
+body{background: powderblue; font-family: sans-serif;}
+.center-box{width: 80%; height: auto; margin: auto; text-align: center;}
+.center-box h4{margin-top: 60px;}
+.lorem-form{margin: 25px 0;}
+.lorem-form label{font-weight: 700; font-size: 12px; letter-spacing: 0.1rem;}
+.lorem-form > input[type="number"]{width: 50px; padding: 7px; border-radius: 10px; font-size: 17px;}
+.lorem-form > input[type="submit"]{padding: 7px; background: steelblue; border-radius: 10px; color: #fff; cursor: pointer;}
+.result{margin: 10px 0 20px 0; font-size: 15px;}
+
+/*media query*/
+@media(max-width: 769px){
+	.lorem-form label{font-size: 15px;}
+	.result{font-size: 20px;}
+}
